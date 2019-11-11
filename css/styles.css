@@ -75,6 +75,7 @@ h1 {
   background-color: white;
   width: 100%;
   position: absolute;
+  z-index: 2;
   top: 20px;
   left: 0;
 }
@@ -85,6 +86,7 @@ h1 {
   background-color: white;
   width: 100%;
   position: absolute;
+  z-index: 2;
   top: -10px;
   left: 0;
 }
@@ -95,13 +97,17 @@ h1 {
   background-color: white;
   width: 100%;
   position: absolute;
+  z-index: 2;
   top: 10px;
   left: 0;
 }
 
 .menu {
+  z-index: 1;
   height: 1000px;
   background-color: #20bdb4;
+  position: relative;
+  z-index: 1;
   width: 200px;
 }
 
@@ -122,12 +128,34 @@ h1 {
 
 .nav {
   margin-left: -200px;
-  transition-duration: 0.2s;
+  transition-duration: 0.4s;
 }
 
 .nav_open {
   margin-left: 0;
-  transition-duration: 0.2s;
+  transition-duration: 0.4s;
+}
+
+.home {
+  color: black;
+  margin-top: 100px;
+  margin-left: 25px;
+  font-size: 36px;
+}
+
+p {
+  margin: 25px;
+  font-size: 14px;
+  color: black;
+}
+
+.square {
+  width: 336px;
+  height: 302px;
+  background: gray;
+  display: flex;
+  margin: auto;
+  border-radius: 35px;
 }
 
 .photoprofil {
