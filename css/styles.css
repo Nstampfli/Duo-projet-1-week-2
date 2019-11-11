@@ -37,6 +37,12 @@ body {
 .arrow1page {
   margin-top: 15px;
 }
+.rightarrow {
+  margin-top: 13px;
+  margin-left: 325px;
+  width: 35px;
+  height: auto;
+}
 
 .rectangle {
   width: 100%;
@@ -46,10 +52,11 @@ body {
 
 h1 {
   position: absolute;
-  width: 100%;
+  width: auto;
   color: white;
-  text-align: center;
-  margin-top: 23px;
+  margin-left: 100px;
+  font-size: 45px;
+  margin-top: 11px;
 }
 
 .toggle_btn {
@@ -149,4 +156,25 @@ p {
   display: flex;
   margin: auto;
   border-radius: 35px;
+}
+
+.photoprofil {
+  margin-top: 17px;
+  margin-left: 15px;
+  width: 70px;
+}
+.nameprofil {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  margin-left: 95px;
+  margin-top: -45px;
+}
+
+.descriptionprofil {
+  font-size: 13px;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 33px;
 }
