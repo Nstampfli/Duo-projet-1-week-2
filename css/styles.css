@@ -143,12 +143,6 @@ h1 {
   font-size: 36px;
 }
 
-p {
-  margin: 25px;
-  font-size: 14px;
-  color: black;
-}
-
 .square {
   width: 336px;
   height: 302px;
@@ -188,5 +182,39 @@ p {
 .offerbg {
   background-color: #20bdb4;
   width: 100%;
-  height: 662px;
+  height: 645px;
+  margin-top: 30px;
+}
+
+.myofferstext {
+  color: white;
+  margin-left: 15px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+}
+
+.addoffers {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  margin-left: 338px;
+  margin-top: 5px;
+}
+
+.offersbg2f {
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  margin-top: 45px;
+  background-color: #1d625e;
+}
+
+.offersbg2t {
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  margin-top: 345px;
+  background-color: #1d625e;
 }
