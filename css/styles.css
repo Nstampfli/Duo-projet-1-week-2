@@ -127,12 +127,12 @@ h1 {
 }
 
 .nav {
-  margin-left: -200px;
+  transform: translateX(-200px);
   transition-duration: 0.4s;
 }
 
 .nav_open {
-  margin-left: 0;
+  transform: translateX(0px);
   transition-duration: 0.4s;
 }
 
