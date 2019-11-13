@@ -246,3 +246,97 @@ h1 {
   margin-top: 30px;
   font-size: 15px;
 }
+
+.nav {
+  transform: translateX(-200px);
+  transition: 0.5s ease 0s;
+}
+
+.nav_open {
+  transform: translateX(0px);
+  transition: 0.5s ease 0s;
+}
+
+.home {
+  color: black;
+  margin-top: 100px;
+  margin-left: 25px;
+  font-size: 36px;
+}
+
+.text {
+  margin: 25px;
+  font-size: 14px;
+  color: black;
+  font-weight: 700;
+}
+
+.square {
+  width: 336px;
+  height: 302px;
+  background: gray;
+  display: flex;
+  margin: auto;
+  border-radius: 35px;
+}
+
+.flexbox {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.img1 {
+  width: 12%;
+}
+/*
+.circle {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: -1;
+  border-radius: 100px;
+  background: #20bdb4;
+  margin-left: -100px;
+}*/
+
+.name {
+  color: black;
+  font-size: 14px;
+}
+
+.price {
+  right: 0;
+  color: black;
+}
+
+.text_filter {
+  color: black;
+  font-size: 16px;
+  margin: 50px 25px;
+  font-weight: 700;
+}
+
+.flexbox2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.square1 {
+  width: 112px;
+  height: 121px;
+  background: gray;
+  border-radius: 20px;
+}
+
+.square2 {
+  width: 112px;
+  height: 242px;
+  background: gray;
+  border-radius: 20px;
+}
