@@ -280,6 +280,12 @@ h1 {
   border-radius: 35px;
 }
 
+.homebox {
+  display: flex;
+  overflow-x: auto;
+  margin: 20px;
+}
+
 .flexbox {
   margin-top: 10px;
   width: 100%;
@@ -315,28 +321,123 @@ h1 {
 .text_filter {
   color: black;
   font-size: 16px;
-  margin: 50px 25px;
+  margin-left: 25px;
+  margin-top: 100px;
   font-weight: 700;
 }
 
 .flexbox2 {
+  margin-top: 20px;
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-rows: 120px 120px 120px 120px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .square1 {
-  width: 112px;
-  height: 121px;
-  background: gray;
+  width: 110px;
+  height: 110px;
   border-radius: 20px;
+  grid-row: 1;
+  grid-column: 1;
+  margin: auto;
 }
 
 .square2 {
-  width: 112px;
-  height: 242px;
-  background: gray;
+  width: 110px;
+  height: 110px;
   border-radius: 20px;
+  grid-row: 1;
+  grid-column: 2;
+  margin: auto;
+}
+
+.square3 {
+  width: 110px;
+  height: 110px;
+  border-radius: 20px;
+  grid-row: 1;
+  grid-column: 3;
+  margin: auto;
+}
+
+.square4 {
+  width: 110px;
+  height: 110px;
+  border-radius: 20px;
+  grid-row: 2;
+  grid-column: 1;
+  margin: auto;
+}
+
+.square5 {
+  width: 110px;
+  height: 110px;
+  border-radius: 20px;
+  grid-row: 2;
+  grid-column: 2;
+  margin: auto;
+}
+
+.square6 {
+  width: 110px;
+  height: 110px;
+  border-radius: 20px;
+  grid-row: 2;
+  grid-column: 3;
+  margin: auto;
+}
+
+.square7 {
+  width: 110px;
+  height: 110px;
+  border-radius: 20px;
+  grid-row: 3;
+  grid-column: 1;
+  margin: auto;
+}
+
+.square8 {
+  width: 110px;
+  height: 110px;
+  border-radius: 20px;
+  grid-row: 3;
+  grid-column: 2;
+  margin: auto;
+}
+
+.square9 {
+  width: 110px;
+  height: 110px;
+  border-radius: 20px;
+  grid-row: 3;
+  grid-column: 3;
+  margin: auto;
+}
+
+.square10 {
+  width: 110px;
+  height: 110px;
+  border-radius: 20px;
+  grid-row: 4;
+  grid-column: 1;
+  margin: auto;
+}
+
+.square11 {
+  width: 110px;
+  height: 110px;
+  border-radius: 20px;
+  grid-row: 4;
+  grid-column: 2;
+  margin: auto;
+}
+
+.square12 {
+  width: 110px;
+  height: 110px;
+  border-radius: 20px;
+  grid-row: 4;
+  grid-column: 3;
+  margin: auto;
 }
