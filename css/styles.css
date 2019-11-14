@@ -115,7 +115,7 @@ h1 {
   padding-top: 30px;
   text-decoration: none;
 }
-z .logo {
+.logo {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 24px;
@@ -246,6 +246,13 @@ z .logo {
   height: 150px;
   margin-top: 495px;
   background-color: #20bdb4;
+}
+.offersbg2t {
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  margin-top: 645px;
+  background-color: #1d625e;
 }
 .offerspic {
   position: absolute;
