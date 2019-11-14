@@ -277,7 +277,7 @@ z .logo {
 
 .homebox {
   display: flex;
-  overflow-x: auto;
+  overflow-x: scroll;
 }
 
 .flexbox {
