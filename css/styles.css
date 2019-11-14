@@ -319,6 +319,15 @@ z .logo {
   margin-top: 100px;
   font-weight: 700;
 }
+@keyframes appear {
+  80% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
 
 .flexbox2 {
   margin-top: 20px;
@@ -326,6 +335,13 @@ z .logo {
   display: grid;
   grid-template-rows: 120px 120px 120px 120px;
   grid-template-columns: 1fr 1fr 1fr;
+}
+img {
+  opacity: 0;
+}
+
+.is-revealed {
+  animation: 0.5s ease 0s normal forwards running appear;
 }
 
 .square1 {
