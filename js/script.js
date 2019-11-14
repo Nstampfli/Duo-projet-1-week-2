@@ -16,7 +16,7 @@ function revealImagesInViewport() {
   var scrollPosition = window.innerHeight + window.scrollY;
 
   window.requestAnimationFrame(function() {
-    Array.from(document.querySelectorAll("img")).forEach(img => {
+    Array.from(document.querySelectorAll(".element")).forEach(img => {
       if (scrollPosition > img.offsetTop + 50) {
         img.classList.add("is-revealed");
       }
