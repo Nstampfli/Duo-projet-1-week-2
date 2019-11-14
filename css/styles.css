@@ -147,6 +147,37 @@ z .logo {
   border-radius: 35px;
 }
 
+.slider {
+  overflow: hidden;
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 35px;
+}
+.slides {
+  width: calc(250px * 3);
+  display: flex;
+  animation: glisse 15s infinite;
+}
+.slide {
+  width: 250px;
+  height: 250px;
+}
+
+@keyframes glisse {
+  0% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(-250px);
+  }
+  66% {
+    transform: translateX(-500px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 .photoprofil {
   margin-left: 15px;
   width: 70px;
@@ -177,7 +208,7 @@ z .logo {
 .offerbg {
   background-color: #20bdb4;
   width: 100%;
-  height: 645px;
+  height: 100vh;
   margin-top: 30px;
 }
 
