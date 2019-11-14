@@ -138,30 +138,20 @@ z .logo {
   font-size: 36px;
 }
 
-.square {
-  width: 336px;
-  height: 302px;
-  background: gray;
-  display: flex;
-  margin: auto;
-  border-radius: 35px;
-}
-
 .slider {
   overflow: hidden;
   margin: auto;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: auto;
   border-radius: 35px;
 }
 .slides {
-  width: calc(250px * 3);
+  width: calc(300px * 4);
   display: flex;
   animation: glisse 15s infinite;
 }
 .slide {
-  width: 250px;
-  height: 250px;
+  width: 300px;
 }
 
 @keyframes glisse {
@@ -169,13 +159,13 @@ z .logo {
     transform: translateX(0);
   }
   33% {
-    transform: translateX(-250px);
+    transform: translateX(-300px);
   }
   66% {
-    transform: translateX(-500px);
+    transform: translateX(-600px);
   }
   100% {
-    transform: translateX(-750px);
+    transform: translateX(-900px);
   }
 }
 .photoprofil {
@@ -343,6 +333,13 @@ z .logo {
   color: black;
 }
 
+.texts {
+  color: black;
+  font-size: 16px;
+  margin-left: 25px;
+  margin-top: 10px;
+  font-weight: 700;
+}
 .text_filter {
   color: black;
   font-size: 16px;
