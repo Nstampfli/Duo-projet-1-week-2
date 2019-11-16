@@ -27,13 +27,17 @@ body {
 }
 
 .name1page {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: bold;
+  font-style: italic;
   margin-top: 5%;
+  font-family: "Overpass", sans-serif;
 }
 
 .swap1page {
   margin-top: 50%;
+  font-weight: bold;
+  font-family: "Overpass", sans-serif;
 }
 
 .rectangle {
@@ -50,6 +54,9 @@ h1 {
   margin-left: 100px;
   font-size: 45px;
   margin-top: 11px;
+  font-family: "Overpass", sans-serif;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .toggle_btn {
@@ -98,16 +105,22 @@ h1 {
   background-color: #20bdb4;
   position: relative;
   width: 200px;
+  z-index: 1;
 }
 
 .menu a {
   color: #ffff;
-  font-family: sans-serif;
+  font-family: "Overpass", sans-serif;
   text-align: center;
   display: block;
   padding-top: 30px;
   text-decoration: none;
 }
+
+a {
+  width: 100%;
+}
+
 .logo {
   text-transform: uppercase;
   font-weight: bold;
@@ -129,6 +142,8 @@ h1 {
   margin-top: 100px;
   margin-left: 25px;
   font-size: 36px;
+  font-weight: 100;
+  font-family: "Overpass", sans-serif;
 }
 
 .slider {
@@ -178,6 +193,7 @@ h1 {
   font-weight: bold;
   margin-left: 95px;
   margin-top: -48px;
+  font-family: "Overpass", sans-serif;
 }
 
 .descriptionprofil {
@@ -186,6 +202,7 @@ h1 {
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 37px;
+  font-family: "Overpass", sans-serif;
 }
 
 .settingsprofil {
@@ -209,6 +226,7 @@ h1 {
   font-weight: bold;
   font-size: 20px;
   position: absolute;
+  font-family: "Overpass", sans-serif;
 }
 
 .addoffers {
@@ -269,6 +287,7 @@ h1 {
   margin-top: 30px;
   font-size: 15px;
   padding: 8px;
+  font-family: "Overpass", sans-serif;
 }
 
 .nav {
@@ -292,6 +311,7 @@ h1 {
   font-size: 16px;
   margin: 25px;
   font-weight: 700;
+  font-family: "Overpass", sans-serif;
 }
 
 .square {
@@ -320,16 +340,6 @@ h1 {
 .img1 {
   width: 20%;
 }
-/*
-.circle {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  z-index: -1;
-  border-radius: 100px;
-  background: #20bdb4;
-  margin-left: -100px;
-}*/
 
 .name {
   color: black;
@@ -341,6 +351,17 @@ h1 {
 .price {
   right: 0;
   color: black;
+  font-family: "Overpass", sans-serif;
+}
+
+h3 {
+  font-family: "Overpass", sans-serif;
+}
+
+h4 {
+  opacity: 0.8;
+  color: #20bdb4;
+  font-family: "Overpass", sans-serif;
 }
 
 .text_filter {
@@ -349,6 +370,7 @@ h1 {
   margin-left: 25px;
   margin-top: 100px;
   font-weight: 700;
+  font-family: "Overpass", sans-serif;
 }
 @keyframes appear {
   80% {
