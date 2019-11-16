@@ -1,0 +1,135 @@
+@media screen and (max-width: 360px) {
+  .addoffers {
+    margin-left: 88%;
+  }
+  .settingsprofil {
+    margin-left: 89%;
+  }
+  .rightarrow {
+    width: 30px;
+    margin-top: 17px;
+  }
+  .offerspic {
+    width: 90px;
+    height: 100px;
+    margin-top: 25px;
+  }
+  .poffers {
+    margin-top: 20px;
+  }
+  h1 {
+    margin-left: 85px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .rightarrow {
+    margin-left: 86%;
+  }
+  h1 {
+    margin-left: 75px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    margin-left: 62px;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .addoffers {
+    margin-left: 94%;
+  }
+  .settingsprofil {
+    margin-left: 95%;
+  }
+  .rightarrow {
+    margin-left: 94%;
+    margin-top: 11px;
+    width: 40px;
+  }
+  .poffers {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .addoffers {
+    margin-left: 96%;
+  }
+  .settingsprofil {
+    margin-left: 97%;
+    width: 30px;
+  }
+  .rightarrow {
+    margin-left: 95%;
+    margin-top: 9px;
+    width: 45px;
+  }
+  .photoprofil {
+    width: 85px;
+    margin-left: 25px;
+  }
+  .nameprofil {
+    margin-left: 130px;
+    margin-top: -55px;
+  }
+  .offersbg2f {
+    height: 200px;
+  }
+  .offersbg1f {
+    height: 200px;
+    margin-top: 245px;
+  }
+  .offersbg2s {
+    height: 200px;
+    margin-top: 445px;
+  }
+  .offersbg1s {
+    height: 200px;
+    margin-top: 645px;
+  }
+  .offersbg2t {
+    height: 200px;
+    margin-top: 845px;
+  }
+  .offerspic {
+    width: 250px;
+    height: 170px;
+    margin-top: 15px;
+  }
+  .poffers {
+    text-align: center;
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .addoffers {
+    margin-left: 97%;
+  }
+  .rightarrow {
+    margin-left: 96%;
+  }
+  .photoprofil {
+    width: 100px;
+    margin-left: 50px;
+  }
+  .nameprofil {
+    margin-left: 170px;
+    margin-top: -65px;
+    font-size: 20px;
+  }
+  .descriptionprofil {
+    font-size: 16px;
+    margin-top: 45px;
+  }
+}
+@media screen and (min-width: 1650px) {
+  .rightarrow {
+    margin-left: 97%;
+  }
+  .settingsprofil {
+    width: 35px;
+  }
+}
