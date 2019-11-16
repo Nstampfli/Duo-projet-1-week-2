@@ -40,13 +40,6 @@ body {
   font-family: "Overpass", sans-serif;
 }
 
-.rightarrow {
-  margin-top: 13px;
-  margin-left: 325px;
-  width: 35px;
-  height: auto;
-}
-
 .rectangle {
   width: 100%;
   height: 65px;
@@ -183,6 +176,13 @@ a {
     transform: translateX(-900px);
   }
 }
+
+.rightarrow {
+  margin-top: 13px;
+  margin-left: 89%;
+  width: 35px;
+  height: auto;
+}
 .photoprofil {
   margin-left: 15px;
   width: 70px;
@@ -197,7 +197,7 @@ a {
 }
 
 .descriptionprofil {
-  font-size: 13px;
+  font-size: 14px;
   color: black;
   margin-left: 20px;
   margin-right: 20px;
@@ -207,7 +207,7 @@ a {
 
 .settingsprofil {
   width: 25px;
-  margin-left: 340px;
+  margin-left: 92%;
   margin-top: -520px;
   margin-top: 10px;
 }
@@ -233,7 +233,7 @@ a {
   position: absolute;
   width: 32px;
   height: 32px;
-  margin-left: 338px;
+  margin-left: 90%;
   margin-top: 5px;
 }
 
@@ -282,10 +282,11 @@ a {
 }
 
 .poffers {
-  width: 200px;
+  width: auto;
   margin-left: 145px;
   margin-top: 30px;
   font-size: 15px;
+  padding: 8px;
   font-family: "Overpass", sans-serif;
 }
 
