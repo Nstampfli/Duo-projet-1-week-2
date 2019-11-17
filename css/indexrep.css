@@ -175,6 +175,7 @@
   .slides {
     width: calc(600px * 4);
   }
+
   .flexbox2 {
     grid-template-rows: 200px 200px 200px 200px;
     grid-template-columns: 1fr 200px 1fr;
@@ -315,14 +316,16 @@
     justify-content: flex-end;
     transition: none;
   }
-
   a {
     width: auto;
-    margin-left: 30px;
+    margin: -4px 25px 0px 25px;
     font-size: 18px;
   }
   .toggle_btn {
     display: none;
+  }
+  h1 {
+    margin-left: 2%;
   }
 }
 @media only screen and (min-width: 950px) {

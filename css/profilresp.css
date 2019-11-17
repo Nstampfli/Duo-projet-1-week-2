@@ -54,6 +54,30 @@
   }
 }
 
+@media only screen and (min-width: 850px) {
+  .menu {
+    background-color: transparent;
+    width: 110vw;
+    display: flex;
+    justify-content: flex-end;
+    transition: none;
+  }
+
+  a {
+    width: auto;
+    margin: -22px 25px 0px 25px;
+    font-size: 18px;
+  }
+  .toggle_btn {
+    display: none;
+  }
+  .rightarrow {
+    display: none;
+  }
+  h1 {
+    margin-left: 2%;
+  }
+}
 @media screen and (min-width: 1000px) {
   .addoffers {
     margin-left: 96%;
@@ -61,11 +85,6 @@
   .settingsprofil {
     margin-left: 97%;
     width: 30px;
-  }
-  .rightarrow {
-    margin-left: 95%;
-    margin-top: 9px;
-    width: 45px;
   }
   .photoprofil {
     width: 85px;
@@ -108,9 +127,6 @@
   .addoffers {
     margin-left: 97%;
   }
-  .rightarrow {
-    margin-left: 96%;
-  }
   .photoprofil {
     width: 100px;
     margin-left: 50px;
@@ -126,9 +142,6 @@
   }
 }
 @media screen and (min-width: 1650px) {
-  .rightarrow {
-    margin-left: 97%;
-  }
   .settingsprofil {
     width: 35px;
   }
