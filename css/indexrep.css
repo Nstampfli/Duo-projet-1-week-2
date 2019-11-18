@@ -257,7 +257,36 @@
     grid-template-rows: 300px 300px 300px 300px;
     grid-template-columns: 1fr 250px 1fr;
   }
-
+  .slider {
+    overflow: hidden;
+    margin: auto;
+    width: 700px;
+    height: auto;
+    border-radius: 35px;
+  }
+  .slides {
+    width: calc(700px * 4);
+  }
+  .slide {
+    width: 700px;
+  }
+  .sizesilde {
+    width: 700px;
+  }
+  @keyframes glisse {
+    0% {
+      transform: translateX(0);
+    }
+    33% {
+      transform: translateX(-700px);
+    }
+    66% {
+      transform: translateX(-1400px);
+    }
+    100% {
+      transform: translateX(-2100px);
+    }
+  }
   .square1 {
     width: 230px;
     height: 230px;
@@ -385,6 +414,36 @@
   .square12 {
     width: 280px;
     height: 280px;
+  }
+  .slider {
+    overflow: hidden;
+    margin: auto;
+    width: 800px;
+    height: auto;
+    border-radius: 35px;
+  }
+  .slides {
+    width: calc(800px * 4);
+  }
+  .slide {
+    width: 800px;
+  }
+  .sizesilde {
+    width: 800px;
+  }
+  @keyframes glisse {
+    0% {
+      transform: translateX(0);
+    }
+    33% {
+      transform: translateX(-800px);
+    }
+    66% {
+      transform: translateX(-1600px);
+    }
+    100% {
+      transform: translateX(-2400px);
+    }
   }
 }
 
