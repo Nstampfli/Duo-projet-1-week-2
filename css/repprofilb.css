@@ -58,6 +58,7 @@
   .menu {
     background-color: transparent;
     width: 110vw;
+    height: 10vh;
     display: flex;
     justify-content: flex-end;
     transition: none;
