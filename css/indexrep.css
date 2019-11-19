@@ -1,4 +1,4 @@
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 350px) {
   .bg1 {
     width: 100%;
     height: 100vh;
@@ -23,51 +23,7 @@
     grid-template-rows: 150px 150px 150px 150px;
     grid-template-columns: 150px 150px 150px;
   }
-  .square1 {
-    width: 130px;
-    height: 130px;
-  }
-  .square2 {
-    width: 130px;
-    height: 130px;
-  }
-  .square3 {
-    width: 130px;
-    height: 130px;
-  }
-  .square4 {
-    width: 130px;
-    height: 130px;
-  }
-  .square5 {
-    width: 130px;
-    height: 130px;
-  }
-  .square6 {
-    width: 130px;
-    height: 130px;
-  }
-  .square7 {
-    width: 130px;
-    height: 130px;
-  }
-  .square8 {
-    width: 130px;
-    height: 130px;
-  }
-  .square9 {
-    width: 130px;
-    height: 130px;
-  }
-  .square10 {
-    width: 130px;
-    height: 130px;
-  }
-  .square11 {
-    width: 130px;
-    height: 130px;
-  }
-  .square12 {
+  .size {
     width: 130px;
     height: 130px;
   }
@@ -101,52 +57,7 @@
     grid-template-columns: 1fr 180px 1fr;
   }
 
-  .square1 {
-    width: 160px;
-    height: 160px;
-  }
-
-  .square2 {
-    width: 160px;
-    height: 160px;
-  }
-  .square3 {
-    width: 160px;
-    height: 160px;
-  }
-  .square4 {
-    width: 160px;
-    height: 160px;
-  }
-  .square5 {
-    width: 160px;
-    height: 160px;
-  }
-  .square6 {
-    width: 160px;
-    height: 160px;
-  }
-  .square7 {
-    width: 160px;
-    height: 160px;
-  }
-  .square8 {
-    width: 160px;
-    height: 160px;
-  }
-  .square9 {
-    width: 160px;
-    height: 160px;
-  }
-  .square10 {
-    width: 160px;
-    height: 160px;
-  }
-  .square11 {
-    width: 160px;
-    height: 160px;
-  }
-  .square12 {
+  .size {
     width: 160px;
     height: 160px;
   }
@@ -172,52 +83,7 @@
     grid-template-columns: 1fr 200px 1fr;
   }
 
-  .square1 {
-    width: 180px;
-    height: 180px;
-  }
-
-  .square2 {
-    width: 180px;
-    height: 180px;
-  }
-  .square3 {
-    width: 180px;
-    height: 180px;
-  }
-  .square4 {
-    width: 180px;
-    height: 180px;
-  }
-  .square5 {
-    width: 180px;
-    height: 180px;
-  }
-  .square6 {
-    width: 180px;
-    height: 180px;
-  }
-  .square7 {
-    width: 180px;
-    height: 180px;
-  }
-  .square8 {
-    width: 180px;
-    height: 180px;
-  }
-  .square9 {
-    width: 180px;
-    height: 180px;
-  }
-  .square10 {
-    width: 180px;
-    height: 180px;
-  }
-  .square11 {
-    width: 180px;
-    height: 180px;
-  }
-  .square12 {
+  .size {
     width: 180px;
     height: 180px;
   }
@@ -285,56 +151,12 @@
     }
   }
 
-  .square1 {
-    width: 230px;
-    height: 230px;
-  }
-
-  .square2 {
-    width: 230px;
-    height: 230px;
-  }
-  .square3 {
-    width: 230px;
-    height: 230px;
-  }
-  .square4 {
-    width: 230px;
-    height: 230px;
-  }
-  .square5 {
-    width: 230px;
-    height: 230px;
-  }
-  .square6 {
-    width: 230px;
-    height: 230px;
-  }
-  .square7 {
-    width: 230px;
-    height: 230px;
-  }
-  .square8 {
-    width: 230px;
-    height: 230px;
-  }
-  .square9 {
-    width: 230px;
-    height: 230px;
-  }
-  .square10 {
-    width: 230px;
-    height: 230px;
-  }
-  .square11 {
-    width: 230px;
-    height: 230px;
-  }
-  .square12 {
+  .size {
     width: 230px;
     height: 230px;
   }
 }
+
 @media only screen and (min-width: 850px) {
   .menu {
     background-color: transparent;
@@ -366,55 +188,11 @@
     grid-template-columns: 1fr 300px 1fr;
   }
 
-  .square1 {
+  .size {
     width: 280px;
     height: 280px;
   }
 
-  .square2 {
-    width: 280px;
-    height: 280px;
-  }
-  .square3 {
-    width: 280px;
-    height: 280px;
-  }
-  .square4 {
-    width: 280px;
-    height: 280px;
-  }
-  .square5 {
-    width: 280px;
-    height: 280px;
-  }
-  .square6 {
-    width: 280px;
-    height: 280px;
-  }
-  .square7 {
-    width: 280px;
-    height: 280px;
-  }
-  .square8 {
-    width: 280px;
-    height: 280px;
-  }
-  .square9 {
-    width: 280px;
-    height: 280px;
-  }
-  .square10 {
-    width: 280px;
-    height: 280px;
-  }
-  .square11 {
-    width: 280px;
-    height: 280px;
-  }
-  .square12 {
-    width: 280px;
-    height: 280px;
-  }
   .slider {
     overflow: hidden;
     margin: auto;
@@ -465,52 +243,7 @@
     grid-template-columns: 1fr 400px 1fr;
   }
 
-  .square1 {
-    width: 330px;
-    height: 330px;
-  }
-
-  .square2 {
-    width: 330px;
-    height: 330px;
-  }
-  .square3 {
-    width: 330px;
-    height: 330px;
-  }
-  .square4 {
-    width: 330px;
-    height: 330px;
-  }
-  .square5 {
-    width: 330px;
-    height: 330px;
-  }
-  .square6 {
-    width: 330px;
-    height: 330px;
-  }
-  .square7 {
-    width: 330px;
-    height: 330px;
-  }
-  .square8 {
-    width: 330px;
-    height: 330px;
-  }
-  .square9 {
-    width: 330px;
-    height: 330px;
-  }
-  .square10 {
-    width: 330px;
-    height: 330px;
-  }
-  .square11 {
-    width: 330px;
-    height: 330px;
-  }
-  .square12 {
+  .size {
     width: 330px;
     height: 330px;
   }
@@ -536,52 +269,7 @@
     grid-template-columns: 1fr 500px 1fr;
   }
 
-  .square1 {
-    width: 400px;
-    height: 400px;
-  }
-
-  .square2 {
-    width: 400px;
-    height: 400px;
-  }
-  .square3 {
-    width: 400px;
-    height: 400px;
-  }
-  .square4 {
-    width: 400px;
-    height: 400px;
-  }
-  .square5 {
-    width: 400px;
-    height: 400px;
-  }
-  .square6 {
-    width: 400px;
-    height: 400px;
-  }
-  .square7 {
-    width: 400px;
-    height: 400px;
-  }
-  .square8 {
-    width: 400px;
-    height: 400px;
-  }
-  .square9 {
-    width: 400px;
-    height: 400px;
-  }
-  .square10 {
-    width: 400px;
-    height: 400px;
-  }
-  .square11 {
-    width: 400px;
-    height: 400px;
-  }
-  .square12 {
+  .size {
     width: 400px;
     height: 400px;
   }
