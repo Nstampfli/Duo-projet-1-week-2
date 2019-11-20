@@ -7,8 +7,11 @@ body {
   position: relative;
 }
 .noscroll {
+  display: flex;
+  justify-content: center;
   position: fixed;
   z-index: 3;
+  width: 100%;
 }
 .logo1page {
   width: 100%;
@@ -23,19 +26,16 @@ body {
 
 .logohome {
   width: 30%;
-  margin-top: 50%;
 }
 
 .name1page {
   font-size: 45px;
   font-weight: bold;
   font-style: italic;
-  margin-top: 5%;
   font-family: "Overpass", sans-serif;
 }
 
 .swap1page {
-  margin-top: 50%;
   font-weight: bold;
   font-family: "Overpass", sans-serif;
 }
