@@ -37,10 +37,12 @@
   }
 
   .flexbox {
-    align-content: space-around;
-    margin: 20px;
-    margin-top: 10px;
-    width: 60vh;
+    margin-top: 40px;
+    width: 420px;
+  }
+
+  .flex-elements {
+    align-items: flex-start;
   }
 
   .name {
@@ -233,9 +235,7 @@
     font-size: 25px;
     margin-left: 7%;
   }
-  .flexbox {
-    margin-left: 40px;
-  }
+
   .flexbox2 {
     grid-template-rows: 400px 400px 400px 400px;
     grid-template-columns: 1fr 400px 1fr;
