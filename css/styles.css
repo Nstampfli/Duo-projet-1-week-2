@@ -373,10 +373,16 @@ h4 {
   color: black;
   font-size: 16px;
   margin-left: 25px;
-  margin-top: 100px;
   font-weight: 700;
   font-family: "Overpass", sans-serif;
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
 @keyframes appear {
   80% {
     transform: scale(1.1);

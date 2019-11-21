@@ -95,6 +95,10 @@
     margin-left: 5%;
   }
 
+  .content {
+    margin-top: 200px;
+  }
+
   .bg1 {
     width: 100vw;
     height: 100vh;
